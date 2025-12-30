@@ -239,12 +239,13 @@
             <div class="localisation_contact_div" data-aos="fade-up" data-aos-duration="1500">
                 <div class="form_contact">
                     <h3>Envoyer un message</h3>
-                    <form action="" method="post">
-                        <input type="text" id="nom" name="nom" placeholder="Nom" required="">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="73b34a12-84e1-46ab-bde0-18d732df7f08">
+                        <input type="text" id="nom"  name="nom" placeholder="Nom complet" required>
                         <input type="email" id="email" name="email" placeholder="Adresse mail" required="">
                         <input type="text" id="objet" name="objet" placeholder="Objet" required="">
                         <textarea name="message" id="message" cols="38" rows="10" placeholder="Message" required=""></textarea>
-                        <button type="submit" class="submit-btn">Envoyer</button>
+                        <button type="submit">Envoyer</button>
                     </form>
                 </div>
             </div>
