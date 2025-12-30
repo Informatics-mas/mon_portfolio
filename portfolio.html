@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="icon" href="Gemini_Generated_Image_i4vcdri4vcdri4vc.png">
+    <title>Mon portfolio</title>
+</head>
+<body>
+    
+  <!-- navigation menu -->
+   <nav>
+       <div class="nav-container">
+            <img src="logo3.png" alt="logo" class="logo" data-aos="zoom-in" data-aos-duration="1500">
+            <div class="links">
+               <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+               <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
+               <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#services">Services</a></div>
+               <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#education">Education</a></div>
+               <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600"><a href="#Certificate">certifications</a></div>
+               <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700"><a href="#contact">Contact</a></div>
+           </div>
+       </div>
+    <i class="fa-solid fa-bars hamburg" onclick="hamburg()" role="button" tabindex="0" aria-controls="main-nav" aria-expanded="false" aria-label="Open menu"></i>
+       <div>
+           <div class="dropdown" id="main-nav" aria-hidden="true">
+               <div class="links">
+               <div class="link"><a href="#about">About</a></div>
+               <div class="link"><a href="#skills">Skills</a></div>
+               <div class="link"><a href="#services">Services</a></div>
+               <div class="link"><a href="#education">Education</a></div>
+              <div class="link"><a href="#Certificate">certifications</a></div>
+                            <div class="link"><a href="#contact">Contact</a></div>
+                            <i class="fa-solid fa-xmark" onclick="cancel()" role="button" tabindex="0" aria-label="Close menu"></i>
+            </div>
+        </div>
+   </nav>
+   <section>
+       <div class="main-container">
+           <div class="image" data-aos="zoom-out" data-aos-duration="3000" >
+               <img src="profile.jpg" alt="Portrait of David" loading="lazy">
+           </div>
+           <div class="content">
+               <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+                   Hey I'm 
+                   <span>Ogou David Richmond O.</span>
+               </h1>
+               <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                   I'm a 
+                   <span class="typewriter-text"></span>
+               </div>
+               <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100"> développeur, freelanceur </p>
+               <div class="social-links">
+                   <a href="https://www.linkedin.com/in/david-ogou-b18200321/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-linkedin"></i></a>
+                   <a href="https://web.facebook.com/profile.php?id=61553860613891" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
+                   <a href="https://www.instagram.com/ogou231/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-instagram"></i></a>
+                   <a href="https://www.upwork.com/freelancers/~016468257a0b04344a" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-upwork"></i></a>
+                   <a href="https://github.com/Informatics-mas" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-github"></i></a>
+               </div>
+               <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                  <form action="telecharger.php" method="get">
+                        <button type="submit">Embauchez-moi</button>
+                   </form>
+               </div>
+           </div>
+       </div>
+   </section>
+
+
+   <!-- about section start -->
+
+
+   <section class="about" id="about">
+           <div class="content">
+           <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
+           <div class="about-details">
+               <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                   <img src="profile.jpg" alt="Portrait of David" loading="lazy">
+               </div>
+               <div class="right">
+                   <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">La programmation est ma passion.</div>
+                   <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Tout a commencé pour moi lorsque j'ai voulu savoir comment les logiciels étaient créés (avec quels logiciels nous avons fait cela). Après avoir posé la question, j'ai compris qu'il fallait savoir programmer. Mais ce qui m'a fait aimer complètement l'informatique, c'est mon grand frère qui suivait des cours d'informatique. À partir de ce moment-là, j'ai décidé qu'après mon bac, j'irais à l'université pour étudier l'informatique et devenir développeur, etc. C'est ainsi que tout a commencé pour moi, et depuis, la grande aventure n'a pas cessé, loin de là !</p>
+                   <div class="button">
+                   <form action="telecharger.php" method="get">
+                      <button type="submit">Mon CV</button>
+                   </form>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+
+   <!-- My skill section starts -->
+
+
+   <section class="skills" id="skills">
+       <div class="content">
+           <div class="title" data-aos="fade-up" data-aos-duration="1200"><span> Skills</span></div>
+           <div class="skills-details">
+               <div class="text">
+                   <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                       Les compétences reflètent nos connaissances
+                   </div>
+                   <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">here are my skills</p>
+                   <div class="experience" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                       <div class="num">2</div>
+                       <div class="exp">Années <br> D'Experience</div>
+                   </div>
+               </div>
+               <div class="boxes">
+                   <div class="box">
+                       <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150">HTML</div>
+                       <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">50%</div>
+                   </div>
+                   <div class="box">
+                       <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="150">CSS</div>
+                       <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">50%</div>
+                   </div>
+                   <div class="box">
+                       <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="450">PHP</div>
+                       <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">20%</div>
+                   </div>
+                   <div class="box">
+                       <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="450">PYTHON</div>
+                       <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">10%</div>
+                   </div>
+                   <div class="box">
+                       <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="450">JAVASCRIPT</div>
+                       <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">0%</div>
+                   </div>
+                   <div class="box">
+                       <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="450">REACT</div>
+                       <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">0%</div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+
+   <!-- My Services Section Start -->
+
+
+   <section class="services" id="services">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>Mes Services</span></div>
+                <div class="boxes">
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                        <div class="icon">
+                           <i class="fas fa-desktop"></i>
+                        </div>
+                        <div class="topic">Web Development</div>
+                        <p>Je fais du développement web, c'est-à-dire la création de sites web etc...</p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                        <div class="icon">
+                           <i class="fas fa-laptop"></i>
+                        </div>
+                        <div class="topic">freelencing</div>
+                        <p>Je fais du freelancing</p>
+                    </div>
+            </div>
+        </div>
+   </section>
+
+   <!-- My Education Section Start -->
+
+   <section class="services" id="education">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>Education</span></div>
+                <div class="boxes">
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                        <div class="topic">BTS(IDA)</div>
+                        <p>Brevet de technicien superieur en Informatique Developpeur d'Application</p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                        <div class="topic">BAC</div>
+                        <p>Titulaire d'un Baccalaureat  </p>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                        <div class="topic">BEPC</div>
+                        <p>Titulaire d'un Brevet Entree du Premier Cycle</p>
+                    </div>
+            </div>
+        </div>
+   </section>
+
+    <!-- My certifications Section Start -->
+
+
+   <section class="services" id="Certificate">
+        <div class="content">
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Certification's</span></div>
+                <div class="boxes">
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                        <div class="topic">Coursera(Google Certificate)</div>
+                        <p>Foundation of cybersecurity</p>
+                        <div class="icon">
+                            <a href="https://coursera.org/verify/Tu2O95KKWAIK"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                        <div class="topic">Coursera(Google Certificate)</div>
+                        <p>Play it safe: Manage Security Risks</p>
+                        <div class="icon">
+                            <a href="https://coursera.org/verify/Tu2O95KKWAIK"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                        <div class="topic">Coursera(Google Certificate)</div>
+                        <p>Connect and Protect: Networks and Network Security</p>
+                        <div class="icon">
+                            <a href="https://coursera.org/verify/Tu2O95KKWAIK"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                        <div class="topic">Coursera(Google Certificate)</div>
+                        <p>Tools of the trade: Linux and SQL</p>
+                        <div class="icon">
+                            <a href="https://coursera.org/verify/Tu2O95KKWAIK"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+   </section>
+
+   <!-- contact Me section start -->
+
+
+   <section class="contact" id="contact">
+       <div class="content">
+           <div class="title" data-aos="fade-up" data-aos-duration="1500">
+               <span>Contactez-Moi</span>
+           </div>
+            <div class="localisation_contact_div" data-aos="fade-up" data-aos-duration="1500">
+                <div class="form_contact">
+                    <h3>Envoyer un message</h3>
+                    <form action="" method="post">
+                        <input type="text" id="nom" name="nom" placeholder="Nom" required="">
+                        <input type="email" id="email" name="email" placeholder="Adresse mail" required="">
+                        <input type="text" id="objet" name="objet" placeholder="Objet" required="">
+                        <textarea name="message" id="message" cols="38" rows="10" placeholder="Message" required=""></textarea>
+                        <button type="submit" class="submit-btn">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+       </div>
+   </section>
+
+   <!-- footer section start -->
+
+   <footer>
+        <div class="text">
+            <span>Created by <a href="auth.php">Davidson</a> — 2025. All rights reserved.</span>
+        </div>
+   </footer>
+
+   <script src="script.js"></script>
+
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+    AOS.init({offset:0});
+   </script>
+</body>
+</html>
