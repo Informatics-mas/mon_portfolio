@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <link rel="stylesheet" href="portfolio.css">
-    <link rel="icon" href="Icon.jpeg">
     <title>Mon portfolio</title>
 </head>
 <body>
@@ -14,9 +13,9 @@
   <!-- navigation menu -->
    <nav>
        <div class="nav-container">
-            <img src="Logo.jpeg" alt="logo" class="logo" data-aos="zoom-in" data-aos-duration="1500">
+            <!-- <img src="Logo.jpeg" alt="logo" class="logo" data-aos="zoom-in" data-aos-duration="1500"> -->
             <div class="links">
-               <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">About</a></div>
+               <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#about">A propos</a></div>
                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#skills">Skills</a></div>
                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#services">Services</a></div>
                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#education">Education</a></div>
@@ -28,7 +27,7 @@
        <div>
            <div class="dropdown" id="main-nav" aria-hidden="true">
                <div class="links">
-               <div class="link"><a href="#about">About</a></div>
+               <div class="link"><a href="#about">A propos</a></div>
                <div class="link"><a href="#skills">Skills</a></div>
                <div class="link"><a href="#services">Services</a></div>
                <div class="link"><a href="#education">Education</a></div>
@@ -45,14 +44,13 @@
            </div>
            <div class="content">
                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
-                   Hey I'm 
+                   Salut, je suis
                    <span>Ogou David Richmond O.</span>
                </h1>
                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
-                   I'm a 
                    <span class="typewriter-text"></span>
                </div>
-               <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100"> développeur, freelanceur </p>
+               <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100"> développeur</p>
                <div class="social-links">
                    <a href="https://www.linkedin.com/in/david-ogou-b18200321/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-linkedin"></i></a>
                    <a href="https://web.facebook.com/profile.php?id=61553860613891" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
@@ -61,9 +59,7 @@
                    <a href="https://github.com/Informatics-mas" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-github"></i></a>
                </div>
                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
-                  <form action="telecharger.php" method="get">
-                        <button type="submit">Embauchez-moi</button>
-                   </form>
+                    <button onclick="downloadPDF()" type="submit">Embauchez-moi</button>
                </div>
            </div>
        </div>
@@ -75,18 +71,16 @@
 
    <section class="about" id="about">
            <div class="content">
-           <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>About Me</span></div>
+           <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>A Propos de Moi</span></div>
            <div class="about-details">
-               <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+               <!--<div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
                    <img src="profile.jpg" alt="Portrait of David" loading="lazy">
-               </div>
+               </div>-->
                <div class="right">
                    <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">La programmation est ma passion.</div>
                    <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Tout a commencé pour moi lorsque j'ai voulu savoir comment les logiciels étaient créés (avec quels logiciels nous avons fait cela). Après avoir posé la question, j'ai compris qu'il fallait savoir programmer. Mais ce qui m'a fait aimer complètement l'informatique, c'est mon grand frère qui suivait des cours d'informatique. À partir de ce moment-là, j'ai décidé qu'après mon bac, j'irais à l'université pour étudier l'informatique et devenir développeur, etc. C'est ainsi que tout a commencé pour moi, et depuis, la grande aventure n'a pas cessé, loin de là !</p>
-                   <div class="button">
-                   <form action="telecharger.php" method="get">
-                      <button type="submit">Mon CV</button>
-                   </form>
+                   <div class="button" data-aos="fade-up" data-aos-duration="1500">
+                      <button onclick="downloadPDF()" type="submit">Mon CV</button>
                    </div>
                </div>
            </div>
@@ -99,13 +93,13 @@
 
    <section class="skills" id="skills">
        <div class="content">
-           <div class="title" data-aos="fade-up" data-aos-duration="1200"><span> Skills</span></div>
+           <div class="title" data-aos="fade-up" data-aos-duration="1200"><span> Competences</span></div>
            <div class="skills-details">
                <div class="text">
                    <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
                        Les compétences reflètent nos connaissances
                    </div>
-                   <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">here are my skills</p>
+                   <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">voici mes compétences</p>
                    <div class="experience" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
                        <div class="num">2</div>
                        <div class="exp">Années <br> D'Experience</div>
@@ -130,7 +124,7 @@
                    </div>
                    <div class="box">
                        <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="450">JAVASCRIPT</div>
-                       <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">0%</div>
+                       <div class="per" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">20%</div>
                    </div>
                    <div class="box">
                        <div class="topic" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="450">REACT</div>
@@ -160,7 +154,7 @@
                         <div class="icon">
                            <i class="fas fa-laptop"></i>
                         </div>
-                        <div class="topic">freelencing</div>
+                        <div class="topic">freelence</div>
                         <p>Je fais du freelancing</p>
                     </div>
             </div>
@@ -194,7 +188,7 @@
 
    <section class="services" id="Certificate">
         <div class="content">
-            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>My Certification's</span></div>
+            <div class="title" data-aos="fade-up" data-aos-duration="1200"><span>Mes Certifications</span></div>
                 <div class="boxes">
                     <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
                         <div class="topic">Coursera(Google Certificate)</div>
@@ -257,7 +251,7 @@
 
    <footer>
         <div class="text">
-            <span>Created by <a href="auth.php">Davidson</a> — 2025. All rights reserved.</span>
+            <span>Created by <a href="#">Informatics</a> — 2026. All rights reserved.</span>
         </div>
    </footer>
 
